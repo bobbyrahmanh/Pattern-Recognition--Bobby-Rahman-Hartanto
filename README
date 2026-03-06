@@ -1,0 +1,15 @@
+# Ekstraksi Ciri Teks dengan TF-IDF (Pure Python)
+
+Repository ini berisi implementasi algoritma **TF-IDF (Term Frequency-Inverse Document Frequency)** yang dibangun menggunakan Python murni, tanpa bergantung pada library eksternal pemrosesan teks seperti `scikit-learn` atau `nltk`. 
+
+Program ini dikembangkan untuk mendemonstrasikan pemahaman fundamental mengenai ekstraksi ciri pada data teks untuk mata kuliah Pattern Recognition.
+
+* **Nama:** Bobby Rahman Hartanto
+* **NIM:** 24/539383/PA/22903
+* **Program Studi:** Computer Science
+
+## Fitur
+* **Preprocessing Text**: Meliputi proses *case folding* (merubah teks menjadi huruf kecil) dan penghapusan tanda baca secara manual.
+* **Term Frequency (TF)**: Menghitung frekuensi kemunculan kata dalam satu dokumen.
+* **Inverse Document Frequency (IDF)**: Menghitung bobot signifikansi kata berdasarkan distribusinya di seluruh korpus dokumen.
+* **TF-IDF Scoring**: Menggabungkan nilai TF dan IDF untuk mendapatkan bobot akhir tiap kata.
